@@ -1,0 +1,15 @@
+yaru-theme-meta for Debian
+--------------------------------
+
+This package is a local repack of an already-generated Yaru installation
+tree. It does not rebuild the themes from their original SCSS, SVG,
+Meson, or other source inputs.
+
+The package replaces Debian's split Yaru GTK, GNOME Shell, icon, and
+sound packages because it installs the same canonical filesystem paths.
+
+For a package intended for submission to Debian or broad redistribution,
+use the complete upstream Yaru source and Debian's existing split-package
+structure instead.
+
+-- KnightChristopher2000
