@@ -1,0 +1,19 @@
+Package: yaru-theme-meta
+Version: 26.7.16.1
+Architecture: all
+Maintainer: KnightChristopher2000 <christoferus.21@gmail.com>
+Installed-Size: 111668
+Depends: gnome-themes-extra, libglib2.0-bin
+Suggests: cinnamon, gnome-shell, xfwm4
+Conflicts: yaru-theme-gnome-shell, yaru-theme-gtk, yaru-theme-icon, yaru-theme-sound
+Replaces: yaru-theme-gnome-shell, yaru-theme-gtk, yaru-theme-icon, yaru-theme-sound
+Provides: yaru-theme-gnome-shell (= 26.7.16.1), yaru-theme-gtk (= 26.7.16.1), yaru-theme-icon (= 26.7.16.1), yaru-theme-sound (= 26.7.16.1)
+Section: x11
+Priority: optional
+Homepage: https://github.com/ubuntu/yaru
+Description: A complete Yaru desktop theme suite
+ This package installs a prebuilt Yaru desktop theme suite containing
+ GTK 2, GTK 3, GTK 4, Cinnamon, GNOME Shell, Metacity, Xfwm, icon,
+ cursor, sound, and Cinnamon thumbnail resources.
+ .
+ It replaces Debian's separately packaged Yaru theme components.
